@@ -1,5 +1,7 @@
 # The80sMan - Professional Obsidian Theme
 
+![The80sMan Theme Screenshot](The80sMan%20-%20Obsidian%20.png)
+
 A sophisticated dark theme for Obsidian featuring a refined color palette designed for professional use and extended reading sessions.
 
 ## Color Scheme
