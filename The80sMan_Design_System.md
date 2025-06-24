@@ -359,26 +359,6 @@ module.exports = {
 
 ---
 
-## Best Practices
-
-### Do's
-✅ Use the defined color palette consistently  
-✅ Maintain proper contrast ratios  
-✅ Apply semantic colors appropriately  
-✅ Use subtle transitions for professional feel  
-✅ Implement proper focus states  
-✅ Test with reduced motion preferences  
-
-### Don'ts
-❌ Don't create new colors outside the system  
-❌ Don't use transforms for hover effects (usually)
-❌ Don't ignore accessibility guidelines  
-❌ Don't mix other color schemes  
-❌ Don't use pure black or white  
-❌ Don't skip focus indicators  
-
----
-
 ## Testing Checklist
 
 - [ ] All text meets contrast ratio requirements
