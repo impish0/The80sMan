@@ -1,0 +1,10 @@
+{
+    "name": "The80sMan",
+    "version": "1.0.0",
+    "minAppVersion": "0.16.0",
+    "description": "A sophisticated dark theme featuring a refined color palette designed for professional use and extended reading sessions.",
+    "author": "Dustin Hogate",
+    "authorUrl": "https://github.com/impish0",
+    "fundingUrl": "",
+    "publish": true
+}
