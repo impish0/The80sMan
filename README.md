@@ -1,4 +1,4 @@
-# The80sMan - Professional Obsidian Theme Collection
+# The80sMan - Obsidian Theme Collection
 
 A sophisticated theme collection for Obsidian featuring two distinct variants designed for professional use and extended reading sessions.
 
@@ -32,7 +32,6 @@ A vibrant theme variant featuring a comprehensive warm orange palette with high-
 
 ## Installation
 
-### Method 1: Manual Installation
 1. Download either `The80sMan_1.1.css` or `ICOrangePeople_1.1.css` (or both)
 2. Place the desired file(s) in your Obsidian vault's `.obsidian/themes/` folder
 3. Open Obsidian Settings > Appearance
@@ -40,12 +39,6 @@ A vibrant theme variant featuring a comprehensive warm orange palette with high-
    - "The80sMan" for the professional refined palette
    - "ICOrangePeople" for the warm orange palette
 5. Ensure dark mode is enabled in Appearance settings
-
-### Method 2: Community Themes
-1. Open Obsidian Settings > Appearance > Themes
-2. Click "Browse" to open the community themes browser
-3. Search for "The80sMan"
-4. Click "Install and use"
 
 ## Features
 
