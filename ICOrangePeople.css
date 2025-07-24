@@ -1,3 +1,72 @@
+/* @settings
+
+name: ICOrangePeople
+author: Dustin Hogate
+version: 1.2.0
+
+settings:
+
+  - id: color-palette
+    title: Color Palette
+    description: Customize the theme's color palette.
+    type: heading
+
+  - id: color-accent
+    title: Accent Color
+    description: The main accent color for the theme.
+    type: variable-color
+    default: "#fb521c"
+
+  - id: color-accent-1
+    title: Accent Color 1
+    description: The first accent color variant.
+    type: variable-color
+    default: "#c03f1f"
+
+  - id: color-accent-2
+    title: Accent Color 2
+    description: The second accent color variant.
+    type: variable-color
+    default: "#ff6b35"
+
+  - id: h1-color
+    title: H1 Color
+    description: The color for H1 headers.
+    type: variable-color
+    default: "#fb521c"
+
+  - id: h2-color
+    title: H2 Color
+    description: The color for H2 headers.
+    type: variable-color
+    default: "#ffcb83"
+
+  - id: h3-color
+    title: H3 Color
+    description: The color for H3 headers.
+    type: variable-color
+    default: "#ffe36e"
+
+  - id: h4-color
+    title: H4 Color
+    description: The color for H4 headers.
+    type: variable-color
+    default: "#ff8b67"
+
+  - id: h5-color
+    title: H5 Color
+    description: The color for H5 headers.
+    type: variable-color
+    default: "#c59752"
+
+  - id: h6-color
+    title: H6 Color
+    description: The color for H6 headers.
+    type: variable-color
+    default: "#c59752"
+
+*/
+
 /* ICOrangePeople Theme for Obsidian */
 /* Warm orange palette with comprehensive coverage */
 /* Version: 1.1.0 */
@@ -130,7 +199,7 @@
 }
 
 /* === GLOBAL RESET === */
-* { box-shadow: none !important; }
+* { box-shadow: none; }
 
 /* === TYPOGRAPHY SYSTEM === */
 /* Headers with warm orange hierarchy */
@@ -174,17 +243,17 @@
 
 /* Text formatting */
 .cm-strong, strong {
-  color: #ff8b67;
+  color: var(--h4-color);
   font-weight: 600;
 }
 
 .cm-em, em {
-  color: #ffe36e;
+  color: var(--h3-color);
   font-style: italic;
 }
 
 .cm-strong.cm-em, strong em, em strong {
-  color: #fc874f;
+  color: var(--text-accent-hover);
   font-weight: 600;
   font-style: italic;
 }
@@ -218,7 +287,7 @@
 /* === CODE === */
 .cm-inline-code, code:not([class*="language-"]) {
   background-color: var(--code-background);
-  color: #f6ff3f;
+  color: var(--code-normal);
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 0.9em;
@@ -363,22 +432,22 @@ pre[class*="language-"], .HyperMD-codeblock-bg {
 
 /* Semantic callout types */
 .callout[data-callout="info"] {
-  border-left-color: #5dade2;
+  border-left-color: var(--h4-color);
   background-color: rgba(93, 173, 226, 0.05);
 }
 
 .callout[data-callout="warning"] {
-  border-left-color: #ffe36e;
+  border-left-color: var(--h3-color);
   background-color: rgba(255, 227, 110, 0.05);
 }
 
 .callout[data-callout="error"] {
-  border-left-color: #ff8b67;
+  border-left-color: var(--h4-color);
   background-color: rgba(255, 139, 103, 0.05);
 }
 
 .callout[data-callout="success"] {
-  border-left-color: #f6ff3f;
+  border-left-color: var(--background-modifier-success);
   background-color: rgba(246, 255, 63, 0.05);
 }
 
@@ -444,15 +513,23 @@ button:hover, .mod-cta:hover {
 }
 
 /* === TABS === */
-.workspace-tab-header.is-active {
-  background-color: var(--interactive-hover);
-  color: var(--text-accent);
-  border: 1px solid rgba(251, 82, 28, 0.2);
-  font-weight: 500;
+.workspace-tab-header {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.workspace-tab-header:hover {
+.workspace-tab-header.is-active {
+  background-color: var(--background-primary-alt);
+  color: var(--text-accent);
+  border: none;
+  border-top: 2px solid var(--text-accent);
+  font-weight: 600;
+}
+
+.workspace-tab-header:hover:not(.is-active) {
   background-color: var(--background-modifier-border-hover);
+  color: var(--text-normal);
 }
 
 /* Settings tabs consistency */
