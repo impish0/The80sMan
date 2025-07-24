@@ -1,86 +1,58 @@
-# The80sMan - Obsidian Theme Collection
+# The80sMan - Obsidian Theme
 
-A sophisticated theme collection for Obsidian featuring two distinct variants designed for professional use and extended reading sessions.
+A sophisticated, customizable, and feature-rich dark theme for Obsidian, designed for professional use and extended reading sessions. This repository includes two variants:
 
-## Theme Variants
+- **The80sMan (theme.css):** The primary, published theme featuring a refined, professional color palette.
+- **ICOrangePeople (ICOrangePeople.css):** An unpublished alternative with a vibrant, warm orange palette that maintains feature parity.
 
-### The80sMan - Professional Refined Palette
+## The80sMan - Professional Refined Palette
 
 ![The80sMan Theme Screenshot](The80sMan-Obsidian-Screenshot.png)
 
-A sophisticated dark theme featuring a refined color palette with warm orange accents balanced by cool blues and sage greens. This variant prioritizes professional aesthetics with subtle warmth.
+This is the main theme, designed for a clean, professional look. It uses a balanced color palette with warm orange accents, cool blues, and sage greens to create a comfortable and productive workspace.
 
-**Color Highlights:**
-- Deep backgrounds (#1a1a1a to #363636) provide modern depth without harsh contrast
-- Warm orange accents (#e67e22, #f39c12) create approachable focal points for headers and interactive elements
-- Cool blue links (#5dade2) ensure clear navigation while maintaining professional aesthetics
-- Sage green highlights (#27ae60) provide positive feedback and success states
-- Graduated text hierarchy uses subtle color variations to guide reading flow
-
-### ICOrangePeople - Warm Orange Palette
+## ICOrangePeople - Warm Orange Palette
 
 ![ICOrangePeople Theme Screenshot](ICOrangePeople-Obsidian-Screenshot.png)
 
-A vibrant theme variant featuring a comprehensive warm orange palette with high-contrast elements. This variant emphasizes warmth and energy with bright accent colors.
-
-**Color Highlights:**
-- Warm orange primary accent (#fb521c) with complementary shades
-- Cream text (#ffcb83) for comfortable reading on dark backgrounds
-- Bright yellow highlights (#f6ff3f) for code and success states
-- Consistent orange-based color hierarchy throughout all interface elements
-- High contrast design for enhanced visibility and focus
+This is an alternative theme for those who prefer a more energetic and vibrant workspace. It features a comprehensive warm orange palette with high-contrast elements.
 
 ## Installation
 
-1. Download either `The80sMan_1.1.css` or `ICOrangePeople_1.1.css` (or both)
-2. Place the desired file(s) in your Obsidian vault's `.obsidian/themes/` folder
-3. Open Obsidian Settings > Appearance
-4. Select your preferred theme from the dropdown:
-   - "The80sMan" for the professional refined palette
-   - "ICOrangePeople" for the warm orange palette
-5. Ensure dark mode is enabled in Appearance settings
+1.  Download the `theme.css` file from the latest release.
+2.  Place the file in your Obsidian vault's `.obsidian/themes/` folder.
+3.  Open Obsidian Settings > Appearance.
+4.  Select "The80sMan" from the theme dropdown menu.
+5.  Ensure dark mode is enabled in Appearance settings.
+
+## Customization with Style Settings
+
+This theme is fully compatible with the [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings), which allows you to customize the theme's colors and other settings directly from the Obsidian settings menu.
+
+To customize the theme:
+
+1.  Install the Style Settings plugin from the Community Plugins browser in Obsidian.
+2.  Go to Settings > Style Settings.
+3.  Select "The80sMan" to see the available customization options.
 
 ## Features
 
-Both theme variants include:
+- **Two Variants:** Choose between the professional `The80sMan` or the vibrant `ICOrangePeople`.
+- **Customizable:** Use the Style Settings plugin to customize colors and more.
+- **Refined Typography:** A clean and readable typography system.
+- **Enhanced Styling:** Custom styling for tabs, navigation, search, and more.
+- **Accessible:** Designed with accessibility in mind.
+- **Responsive:** Optimized for both desktop and mobile devices.
 
-- **Refined Typography System**: Color-coded header hierarchy with professional spacing
-- **Enhanced Form Styling**: Subtle focus states and smooth transitions
-- **Advanced Search Highlighting**: Professional search result presentation with clear visual feedback
-- **Accessible Design**: Proper contrast ratios and focus indicators throughout
-- **Responsive Layout**: Optimized for various screen sizes and mobile devices
-- **Comprehensive Coverage**: Styled components include navigation, tabs, tables, callouts, and more
-- **Performance Optimized**: Smooth animations with reduced motion support
+## Publishing to the Obsidian Theme Store
 
-## Technical Details
-
-- **Version**: 1.1.0
-- **Compatibility**: Obsidian 0.16.0+
-- **Mode Support**: Optimized for dark mode (light mode variants included)
-- **Plugin Compatibility**: Works with most community plugins
-- **Accessibility**: WCAG compliant contrast ratios and keyboard navigation support
-
-## Design Philosophy
-
-The theme collection balances professional sophistication with visual warmth, creating interfaces that feel both trustworthy and approachable. Each variant serves different aesthetic preferences while maintaining consistent usability principles.
-
-**The80sMan** focuses on subtle elegance with a balanced color palette suitable for professional environments and extended reading sessions.
-
-**ICOrangePeople** emphasizes energy and warmth with a bold orange-centric design that creates a more vibrant and engaging workspace.
-
-## Customization
-
-Both themes use CSS custom properties (variables) for easy customization. Key color variables can be modified to create personal variations while maintaining the overall design system integrity.
-
-## Contributing
-
-Issues and suggestions are welcome. Please report any compatibility problems or enhancement requests through the GitHub repository.
+`The80sMan` is the primary theme and is intended for publication in the official Obsidian theme store. `ICOrangePeople` is an unpublished alternative and is not intended for individual publication.
 
 ## License
 
-This theme collection is released under the MIT License. See LICENSE file for details.
+This theme is released under the MIT License. See the LICENSE file for details.
 
 ## Author
 
-Created by Dustin Hogate  
+Created by Dustin Hogate
 GitHub: [@impish0](https://github.com/impish0)
