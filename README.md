@@ -8,19 +8,19 @@ A sophisticated, customizable, and feature-rich dark theme for Obsidian, designe
 
 ## The80sMan - Professional Refined Palette
 
-![The80sMan Theme Screenshot](the-80s-man-theme.png)
+![The80sMan Theme Screenshot](Assets/the-80s-man-theme.png)
 
 This is the main theme, designed for a clean, professional look. It uses a balanced color palette with warm orange accents, cool blues, and sage greens to create a comfortable and productive workspace.
 
 ## ICOrangePeople - Warm Orange Palette
 
-![ICOrangePeople Theme Screenshot](ic-orange-theme.png)
+![ICOrangePeople Theme Screenshot](Assets/ic-orange-theme.png)
 
 This is an alternative theme for those who prefer a more energetic and vibrant workspace. It features a comprehensive warm orange palette with high-contrast elements.
 
 ## Ristretto - Warm Brown Palette
 
-![Ristretto Theme Screenshot](ristretto-theme.png)
+![Ristretto Theme Screenshot](Assets/ristretto-theme.png)
 
 This is an alternative theme for those who prefer a more muted and soft earth tone workspace. It features a comprehensive warm brown palette.
 
