@@ -8,7 +8,7 @@ A sophisticated, customizable, and feature-rich dark theme for Obsidian, designe
 
 ## The80sMan - Professional Refined Palette
 
-![The80sMan Theme Screenshot](the80sman-theme.png)
+![The80sMan Theme Screenshot](the-80s-man-theme.png)
 
 This is the main theme, designed for a clean, professional look. It uses a balanced color palette with warm orange accents, cool blues, and sage greens to create a comfortable and productive workspace.
 
