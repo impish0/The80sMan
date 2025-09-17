@@ -32,18 +32,6 @@ This is an alternative theme for those who prefer a more muted and soft earth to
 4.  Select "The80sMan" from the theme dropdown menu.
 5.  Ensure dark mode is enabled in Appearance settings.
 
-## Features
-
-- **Three Variants:** Choose between the professional `The80sMan`, the vibrant `ICOrangePeople`, or the `Ristretto` variant.
-- **Refined Typography:** A clean and readable typography system.
-- **Enhanced Styling:** Custom styling for tabs, navigation, search, and more.
-- **Accessible:** Designed with accessibility in mind.
-- **Responsive:** Optimized for both desktop and mobile devices.
-
-## Publishing to the Obsidian Theme Store
-
-`The80sMan` is the primary theme and is intended for publication in the official Obsidian theme store. `ICOrangePeople` is an unpublished alternative and is not intended for individual publication.
-
 ## License
 
 This theme is released under the MIT License. See the LICENSE file for details.
