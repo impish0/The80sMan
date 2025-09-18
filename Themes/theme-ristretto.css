@@ -15,7 +15,7 @@ settings:
     title: Accent Color
     description: The main accent color for the theme.
     type: variable-color
-    default: "#f38d70"
+    default: "#C45C08"
 
   - id: color-accent-1
     title: Accent Color 1
@@ -33,7 +33,7 @@ settings:
     title: H1 Color
     description: The color for H1 headers.
     type: variable-color
-    default: "#f38d70"
+    default: "#C45C08"
 
   - id: h2-color
     title: H2 Color
@@ -74,19 +74,19 @@ settings:
 /* === COLOR PALETTE === */
 .theme-dark {
   /* Brand Colors - Ristretto Palette */
-  --color-accent: #f38d70;
+  --color-accent: #C45C08;
   --color-accent-1: #fd6883;
   --color-accent-2: #f9cc6c;
   
   /* Backgrounds */
   --background-primary: #2c2525;
-  --background-primary-alt: #3d2f2a; /* selected_bg */
-  --background-secondary: #403e41;    /* selection bg */
-  --background-secondary-alt: #463a3a; /* bright black */
+  --background-primary-alt: #2C2525; /* selected_bg */
+  --background-secondary: #211C1C;    /* selection bg */
+  --background-secondary-alt: #191515; /* bright black */
   --background-modifier-border: rgba(195, 183, 184, 0.12); /* c3b7b8 */
   --background-modifier-border-hover: rgba(195, 183, 184, 0.18);
   --background-modifier-border-focus: rgba(243, 141, 112, 0.35); /* accent focus */
-  --background-modifier-form-field: #403e41;
+  --background-modifier-form-field: #191515;
   --background-modifier-form-field-highlighted: #463a3a;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: #adda78;
@@ -98,7 +98,7 @@ settings:
   --text-normal: #e6d9db;
   --text-muted: #c3b7b8;
   --text-faint: #72696a;
-  --text-accent: #f38d70;
+  --text-accent: #C45C08;
   --text-accent-hover: #f9cc6c;
   --text-on-accent: #2c2525;
   --text-on-accent-inverted: #e6d9db;
@@ -109,12 +109,12 @@ settings:
   /* Interactive Elements */
   --interactive-normal: #403e41;
   --interactive-hover: rgba(243, 141, 112, 0.12);
-  --interactive-accent: #f38d70;
+  --interactive-accent: #C45C08;
   --interactive-accent-hover: #fd6883;
   --interactive-success: #adda78;
   
   /* Header Colors */
-  --h1-color: #f38d70;
+  --h1-color: #C45C08;
   --h2-color: #f9cc6c;
   --h3-color: #a8a9eb;
   --h4-color: #85dacc;
@@ -124,11 +124,11 @@ settings:
   /* Specialized Elements */
   --code-background: #403e41;
   --code-normal: #e6d9db;
-  --blockquote-border: #f38d70;
+  --blockquote-border: #C45C08;
   --tag-background: rgba(243, 141, 112, 0.08);
-  --tag-color: #f38d70;
+  --tag-color: #C45C08;
   --graph-line: rgba(243, 141, 112, 0.35);
-  --graph-node: #f38d70;
+  --graph-node: #C45C08;
   --graph-node-unresolved: #72696a;
   --graph-node-focused: #fd6883;
   --graph-node-tag: #f9cc6c;
@@ -137,7 +137,7 @@ settings:
 
 .theme-light {
   /* Brand Colors - Ristretto (Light Mode) */
-  --color-accent: #f38d70;
+  --color-accent: #C45C08;
   --color-accent-1: #fd6883;
   --color-accent-2: #f9cc6c;
   
@@ -161,7 +161,7 @@ settings:
   --text-normal: #2c2525;
   --text-muted: #72696a;
   --text-faint: #c3b7b8;
-  --text-accent: #f38d70;
+  --text-accent: #C45C08;
   --text-accent-hover: #fd6883;
   --text-on-accent: #ffffff;
   --text-on-accent-inverted: #2c2525;
@@ -172,12 +172,12 @@ settings:
   /* Interactive Elements */
   --interactive-normal: #f2f0f0;
   --interactive-hover: rgba(243, 141, 112, 0.12);
-  --interactive-accent: #f38d70;
+  --interactive-accent: #C45C08;
   --interactive-accent-hover: #fd6883;
   --interactive-success: #67a05f;
   
   /* Header Colors */
-  --h1-color: #f38d70;
+  --h1-color: #C45C08;
   --h2-color: #fd6883;
   --h3-color: #f9cc6c;
   --h4-color: #85dacc;
@@ -187,11 +187,11 @@ settings:
   /* Specialized Elements */
   --code-background: #faf9f9;
   --code-normal: #2c2525;
-  --blockquote-border: #f38d70;
+  --blockquote-border: #C45C08;
   --tag-background: rgba(243, 141, 112, 0.10);
-  --tag-color: #f38d70;
+  --tag-color: #C45C08;
   --graph-line: rgba(243, 141, 112, 0.30);
-  --graph-node: #f38d70;
+  --graph-node: #C45C08;
   --graph-node-unresolved: #c3b7b8;
   --graph-node-focused: #fd6883;
   --graph-node-tag: #f9cc6c;
